@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
 	int arraysize, max, secmax = 0;
 	printf("\nInput array size:");
 	scanf("%d", &arraysize);
-	int a[arraysize];
+	int a[arraysize]; // This wont work if you using older C apps, this is not a good way to use
 	printf("\nInput numbers:");
 	for(int i=0; i< arraysize; i++){
 		int tmp;
